@@ -1,12 +1,12 @@
 // Animate Smooth Scroll
 $('#view-work').on('click', function() {
-  const NajlepszyFryzjerWPruszkowie = $('#NajlepszyFryzjerWPruszkowie').position().top;
+  const NajlepszyFryzjerWPruszkowie = $('#NajlepszyFryzjerWPruszkowie').position().top  - 35;
 
   $('html, body').animate(
     {
       scrollTop: NajlepszyFryzjerWPruszkowie
     },
-    900
+    1400
   );
 });
 
