@@ -60,21 +60,25 @@ background: #fff;
   color:#aaa;
 
 }
-div.sticky {
-    font-family: 'Kaushan Script', sans-serif;
-    position: -webkit-sticky;
-    position: sticky;
-    display: flex;
-    top: 0;
-    color:#000;
-    background-color:#fff;
-    padding-top: 0.5rem;
-    padding-bottom: 0.5rem;
-    font-size: 1rem;
-    max-width: 900px;
-    margin: auto;
-
+.sticky::before{
+    background: #fff;
 }
+.sticky{
+
+  font-family: 'Kaushan Script', sans-serif;
+  position: -webkit-sticky;
+  position: sticky;
+  display: flex;
+  top: 0;
+  color:#000;
+  background-color:#fff;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  font-size: 1rem;
+  max-width: 900px;
+  margin: auto;
+}
+
 #phone{
   padding-top: 4px;
   padding-left: 5px;
@@ -86,11 +90,12 @@ div.sticky {
   padding-left: 22px;
 }
 #insta{
+  top:3px;
   right:0px;
   position: absolute;
   font-family: 'Damion', sans-serif;
   margin: 5px;
-font-weight: 400;
+  font-weight: 400;
 }
 insta:hover {
     background-color: red;
@@ -115,6 +120,7 @@ transition: background 500ms ease;
   text-align: center;
   background: #222222;
   color: #fff;
+
 }
 #header h2{
   border-left: dotted 1px #fff;

@@ -14,7 +14,7 @@
           <link rel="icon" type="image/x-icon" href="Salon Fryzjerski w Pruszkowie Pruszków Katarzyna Kurzaj Salon Fryzjerski fryzjer jj Justyna.ico" />
           <link rel="shortcut icon" href="Salon Fryzjerski w Pruszkowie Pruszków Katarzyna Kurzaj Salon Fryzjerski fryzjer jj Justyna.ico" />
 
-
+          <meta name="google-site-verification" content="My8ngQJaoq7XgQ5vqy_y4d2XVg8Ap4f2Jz19AVuPw3E" />
 
           <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 
@@ -24,11 +24,14 @@
       <!––For Android-->
     <link rel="icon" type="image/png" href="Salon Fryzjerski w Pruszkowie Pruszków Katarzyna Kurzaj Salon Fryzjerski fryzjer jj jarek.png" sizes="160x160">
     <meta name="theme-color" content="#5B5E5C">
+
   </head>
 
 <body>
-
 <main>
+
+
+
   <div class="sticky">
 
     <div id ="phone" class="fa"></div>
@@ -50,6 +53,7 @@
                 setInterval(brakePhone, 2000);
         </script>
   </div>
+
   <!-- landing Area -->
 <div id="landing">
     <div id="landing-text">
@@ -65,6 +69,9 @@
 
 
   <div id="NajlepszyFryzjerWPruszkowie">
+
+
+
     <div id="header">
       <h2>Fryzjer | Makijażystka | Stylista</h2>
     </div>
@@ -102,7 +109,7 @@ Daj się ponieść fantazji pod okiem doświadczonych stylistów. Nie daj sobie 
    <div id="socialmedia">
 <ul>
     <li><a alt="Salon Fryzjerski w Pruszkowie Pruszków Katarzyna Kurzaj Salon Fryzjerski fryzjer jj jarek fryzury włosy" target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/paulina.p.warachowska/media_set?set=a.882069855256985&type=3&fb_dtsg_ag=AdxYGHHPwyNc3wwHxoVlzdBb33aNWiXOLlZfjmLhWqZdjQ%3AAdzxhkaBSPHLa14B6nZaXZ4K6c7ktvYnEzY24-xbngHg-w"><i class="fa fa-facebook" aria-hidden="true"></i> </a></li>
-    <li><a alt="Salon Fryzjerski w Pruszkowie Pruszków Katarzyna Kurzaj Salon Fryzjerski fryzjer jj jarek fryzury włosy" target="_blank" rel="noopener noreferrer" href=""><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+    <li><a alt="Salon Fryzjerski w Pruszkowie Pruszków Katarzyna Kurzaj Salon Fryzjerski fryzjer jj jarek fryzury włosy" target="_blank" rel="noopener noreferrer" href=""><i class="fa fa-google" aria-hidden="true"></i></a></li>
     <li><a alt="Salon Fryzjerski w Pruszkowie Pruszków Katarzyna Kurzaj Salon Fryzjerski fryzjer jj jarek fryzury włosy" target="_blank" rel="noopener noreferrer" href=""><i class="fa fa-pinterest-p" aria-hidden="true"></i></a></li>
     <li><a alt="Salon Fryzjerski w Pruszkowie Pruszków Katarzyna Kurzaj Salon Fryzjerski fryzjer jj jarek fryzury włosy" target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/paulina-warachowska-b15867170/"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
     <li><a alt="Salon Fryzjerski w Pruszkowie Pruszków Katarzyna Kurzaj Salon Fryzjerski fryzjer jj jarek fryzury włosy" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/hairstyling_factory/?hl=en"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
@@ -116,22 +123,111 @@ Daj się ponieść fantazji pod okiem doświadczonych stylistów. Nie daj sobie 
 
 
     <p>Wyślij email albo umów się na wizytę przez telefon.</p>
-    <p>Adres:
-      <strong>Hubala 7/3, 05-800 Pruszków</strong>
-    </p>
+      <div id = "a"><p>Adres:
+    <strong>Hubala 7/3, 05-800 Pruszków</strong>
+    </p></div>
+      <div id = "e">
     <p>Email:
-      <strong>paulinapwarachowska@gmail.com</strong>
+    <strong>paulinapwarachowska@gmail.com</strong>
     </p>
+    </div>
+      <div id = "p">
     <p>Phone:
-      <strong>(+48) 504 923 757</strong>
+   <strong>(+48) 504 923 757</strong>
     </p>
-
+</div>
   </footer>
+  <script src="https://unpkg.com/scrollreveal"></script>
   <script
   src="https://code.jquery.com/jquery-3.3.1.min.js"
   integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
   crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"> </script>
+  <script>
+  if( $(window).width() > 700)
+{
+  window.sr = ScrollReveal();
 
+    sr.reveal('.btn',{
+      duration: 3000,
+      origin: 'bottom',
+      distance:'300px',
+    });
+    sr.reveal('h2',{
+      duration: 2000,
+      origin: 'right',
+
+    });
+    sr.reveal('#element1',{
+      duration: 3000,
+      origin: 'left',
+      distance:'300px',
+      viewFactor:0.4,
+    });
+    sr.reveal('#element2',{
+      duration: 3000,
+      origin: 'right',
+      distance:'300px',
+      viewFactor:0.4,
+    });
+    sr.reveal('#socialmedia',{
+      duration: 2000,
+      origin: 'top',
+    });
+    sr.reveal('#a',{
+      duration: 1000,
+      origin: 'left',
+      distance:'300px',
+    });
+    sr.reveal('#e',{
+      duration: 1000,
+      origin: 'right',
+      distance:'300px',
+    });
+    sr.reveal('#p',{
+      duration: 1000,
+      origin: 'left',
+      distance:'300px',
+    });
+}
+else
+{
+window.sr = ScrollReveal();
+
+  sr.reveal('.btn',{
+    duration: 3000,
+    origin: 'bottom',
+    distance:'300px',
+  });
+  sr.reveal('h2',{
+    duration: 2000,
+    origin: 'right',
+
+  });
+  sr.reveal('#socialmedia',{
+    duration: 3000,
+    origin: 'top',
+  });
+
+};
+  </script>
+  <script>
+      $(function() {
+        // Smooth Scrolling
+        $('a[href*="#"]:not([href="#"])').click(function() {
+          if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+            var target = $(this.hash);
+            target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+            if (target.length) {
+              $('html, body').animate({
+                scrollTop: target.offset().top- 35
+              }, 1000);
+              return false;
+            }
+          }
+        });
+      });
+      </script>
   <script src="main.js">
 
   </script>
